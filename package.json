@@ -1,0 +1,25 @@
+{
+  "name": "cryptoproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikkelrev22/crypto.git"
+  },
+  "author": "Michael Thompson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikkelrev22/crypto/issues"
+  },
+  "homepage": "https://github.com/mikkelrev22/crypto#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "webpack": "^4.39.2"
+  }
+}
