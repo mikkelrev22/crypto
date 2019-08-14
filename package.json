@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon server.js",
+    "build": "webpack --watch -d",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,9 +19,16 @@
   },
   "homepage": "https://github.com/mikkelrev22/crypto#readme",
   "dependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "body-parser": "^1.19.0",
     "express": "^4.17.1",
+    "morgan": "^1.9.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "webpack": "^4.39.2"
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.6"
   }
 }
