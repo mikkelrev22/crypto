@@ -9,6 +9,9 @@ module.exports = {
         filename: 'bundle.js',
         path: DIST_DIR
     },
+    externals: {
+            moment: 'moment'
+        },
     module: {
         rules: [
             {
